@@ -3,8 +3,8 @@ Feature:check for XSS Attack using arachni web scanner against gruyere
 Background:
   Given "arachni" is installed
   And the following profile:
-  |name   |value                  |
-  |url    |http://url which u want|
+  |name   |envrionment_variable_name                  |
+  |url    |TARGET_HOSTNAME                            |
 
 Scenario:Do a full xss on the path 
 
